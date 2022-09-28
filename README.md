@@ -1,2 +1,2 @@
-# HelloGit-Repo
-Will use this repo to practice git commands.
+# HTML Basic
+Will use this html commands.
