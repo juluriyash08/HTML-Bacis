@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;"><center>Welcome to SpicyPizza.com</center></h1>
+    <img src="piza.jfif" style="display: block;margin-left:auto;margin-right:auto;">
+    <h2>Enter your order</h2>
+    <form action="htmlFormData.html" method="get">
+        <label for="name">
+             Name:
+        </label>
+        <input type="text" name="username" id="name"  />
+        <br>
+        <br>
+        <label for="Address">Address :</label>
+        <input type="address" name="address" id="">
+        <br> 
+        <br>
+        <label for="Number of Pies">Number of Pies :</label>
+        <input type="number of pies" name="number" id="">
+        <br>
+        <br>
+        <label for="Pizza size"> Pizza size:</label>
+        <br>
+        <ul>
+            <li>
+                <input type="radio" name="8-inch" id="pizzasize">
+                <label for="pizza size">8-inch</label>
+            </li>
+            <li>
+                <input type="radio" name="8-inch" id="pizzasize">
+                <label for="pizza size">10-inch</label>
+            </li>
+            <li>
+                <input type="radio" name="8-inch" id="pizzasize">
+                <label for="pizza size">12-inch</label>
+            </li>
+            <li>
+                <input type="radio" name="8-inch" id="pizzasize">
+                <label for="pizza size">14-inch</label>
+            </li>
+        </ul>
+        <label for="Pizza Type"> Pizza Type:</label>
+        <br>
+        <ul>
+        <li>
+            <input type="radio" name="veg" id="pizza type">
+            <label for="veg">veg</label>
+        </li>
+        <li>
+            <input type="radio" name="veg" id="pizzasize">
+            <label for="pizza size">non-veg</label>
+        </li>
+        </ul>
+        <label for="toppings">Toppings :</label><br>
+        <br>
+        <input type="checkbox" name="Toppings 1" value="pepperoni" >Pepperoni
+        <input type="checkbox" name="Toppings 2" value="onions">Onions
+        <input type="checkbox" name="Toppings 3" value="mushrooms">Mushrooms
+        <input type="checkbox" name="Toppings 3" value="sausage">Sausage <br>
+        <h4>(you can select multiple toppings)</h4>
+        <label for="payment type">Payment Type:</label>
+        <br>
+        <ul>
+        <li>
+            <input type="radio" name="online" id="payment type">
+            <label for="payment type">Online</label>
+        </li>
+        <li>
+            <input type="radio" name="online" id="payment type">
+            <label for="payment type">Cash on delivary</label>
+        </li>
+        </ul>
+        <input type="submit" value="Submit Order Now" id="Submit Order Now">
+        <input type="submit" value="Submit Form">
+
+        
+    </form>
+</body> 
+</html>   
