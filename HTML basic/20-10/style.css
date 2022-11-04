@@ -1,0 +1,27 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    background-color: gold;
+    padding: 10px;
+    margin:25px;
+    row-gap:15px;
+    column-gap: 15px;
+
+}
+
+
+.grid-items{
+   
+    background-color: silver;
+    border:1px solid black;
+    
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+

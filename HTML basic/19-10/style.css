@@ -1,0 +1,39 @@
+.flex-container{
+    display: flex;
+    background-color: bisque;
+    padding: 10px;
+    border:2px solid greenyellow;
+
+    flex-direction:row;
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+
+    gap: 10px;
+    align-items: end;
+    align-content:space-between;
+}
+
+.flex-item{
+   
+    border:2px solid orchid;
+    background-color: aqua;
+    margin: 10px;
+}
+.flex-item-1{
+
+    height: 50px;
+    width: 100px;
+    flex-grow: 1;
+    
+    align-self:stretch;
+}
+.flex-item-2{
+    width: 100px;
+    height: 50px;
+    flex-grow: 1;
+}
+.flex-item-3{
+    
+    height: 100px;
+}

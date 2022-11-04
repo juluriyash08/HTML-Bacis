@@ -1,0 +1,59 @@
+li:first-child{
+    color:rebeccapurple;
+}
+input:focus{
+    background-color: blueviolet;
+    color: black;
+}
+
+p::first-line{
+    color:aquamarine;
+}
+
+h2::before{
+    content:"*";
+}
+h2::a:link{
+    color:yellow;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:burlywood;
+}
+
+#para:hover{
+    color: blue;
+}
+
+#hidden{
+    display: none;
+}
+
+div:hover #hidden{
+    display: block
+}
+div{
+    border:3px solid pink;
+}
+
+div h2:hover{
+    color:blue;
+}
+
+h2+p{
+    color:red;
+}
+
+p::selection{
+    background-color: darkkhaki;
+    color: darkgrey;
+}
+
+h2~p{
+    color:violet;
+}

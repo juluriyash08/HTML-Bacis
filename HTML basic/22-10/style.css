@@ -1,0 +1,103 @@
+.navbar{
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.navbar a{
+    color:rgb(34, 82, 150);
+    display: inline-block;
+    padding: 17px;
+    border-radius:30px ;
+    text-decoration: none;
+   
+}    
+ .navbar a:hover{
+    background-color: black;
+    color: white;
+ }
+
+ .main-content{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+ }
+ .Hello-Text{
+    background-color: aquamarine;
+    padding: 18px;
+ }
+ .About-Me,.Skills,.Experience,.Education, .Contact{
+    grid-column: 1/3;
+    text-align: center;
+ }
+ .Skill-List{
+display: grid;
+grid-template-columns: auto auto auto ;
+ }
+ @media screen and (max-width:600px){
+   .Skill-List{
+      display: grid;
+      grid-template-columns: auto;
+    } 
+ }
+ @media screen and (max-width:992px){
+   .Skill-List{
+      display: grid;
+      grid-template-columns:  auto auto;
+    } 
+ }
+ .Skill-Item{
+   background-color: aqua;
+   margin: 10px;
+   padding: 10px;
+ }
+ .bx{
+   font-size:50px;
+ }
+ .Experience-List{
+   display: grid;
+   grid-template-columns: auto auto;
+ }
+ .Experience-Item{
+   background-color: cornsilk;
+   border-radius: 15px;
+ }
+ .Experience-Item-1{
+   grid-area: 1/1/2/2;
+ }
+ .Experience-Item-2{
+   grid-area: 2/3/2/2;
+ }
+ .Education-Item{
+   background-color: rgb(221, 216, 184);
+   border-radius: 30px;
+ }
+ .Education-List{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+ .Contact-Form{
+   background-color: aqua;
+ }
+ form{
+   margin: auto;
+   gap : 10px;
+   width: 50%;
+   display: grid;
+   grid-template-columns:auto auto;
+ }
+ form button{
+   grid-column: 2/3;
+   justify-content: center;
+ }
+ footer{
+   height: 100px;
+   padding: 20px;
+   background-color: chocolate;
+   margin-top: 10px;
+   color: white ;
+   text-align: center;
+   vertical-align: baseline;
+ }

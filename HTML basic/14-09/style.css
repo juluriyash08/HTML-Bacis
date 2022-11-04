@@ -1,0 +1,67 @@
+.blog-section{
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(176, 153, 157);
+    padding: 10px;
+    margin: 10px;
+
+    background-color: blanchedalmond;
+
+     margin:10px;
+     box-sizing: content-box;
+
+
+    height: fit-content;
+    width: 50%;
+
+    outline-style: dashed;
+    outline-width: 3px;
+    outline-color: blueviolet;
+
+}
+
+.block-section p{
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkkhaki;
+
+    text-align: justify;
+    text-align-last: left ;
+
+  /*  text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 3px;
+    */
+
+    text-decoration: underline blue dashed 2px;
+    text-transform: capitalize;
+    text-indent: 30px;
+    letter-spacing: px;
+    word-spacing: 3px;
+    line-height: 1.1;
+
+    white-space: pre-line;
+
+   /*
+    text-shadow: 2px 2px 5px black;
+   */
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 13px;
+
+}
+   
+    span{
+         vertical-align: text-top;
+    }
+
+.Topics  {
+     background-color: blueviolet;
+     padding: 2px;
+    }
+.Topics p{
+    margin: 50px ;
+    }

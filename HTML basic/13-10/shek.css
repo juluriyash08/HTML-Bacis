@@ -1,0 +1,56 @@
+h1{
+    color:aqua;background-color: bisque;
+}
+
+a:hover{
+    color:aqua;background-color: bisque;
+}
+h2{
+    color:blanchedalmond;background-color:aquamarine;text-align: center;font-family: Arial, Helvetica, sans-serif;
+} 
+
+p i:first-child{
+    color:red;background-color:azure;font-size: x-small;font-family: Verdana, Geneva, Tahoma, sans-serif;font-variant: inherit;font-style: italic ;
+}
+body{
+    background-color:lightblue;font-size: small;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-style: italic;
+}
+h1{
+    color:red; text-align: center;font-size: 50px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color:black; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    font-size: 15px;
+}
+button:hover{
+     background-color:aquamarine;
+}
+legend{
+    color:brown;font-size: medium;font-weight: bold;
+}
+legend::first-letter{
+    color:blue;font-size: medium;font-weight: bold;
+}
+input[type="text"]{
+    background-color:crimson;
+    color:greenyellow;
+}
+input[type="email"]{
+    background-color: black;
+    color: aliceblue;
+}
+label:hover{
+    color: cyan;background-color: coral;
+}
+input[type="reset"]{
+    background-color: black;
+    color: aliceblue;
+}
+textarea[name="feedback"]{
+        color:red;background-color:springgreen;
+}
+h1::before,h1::after{
+    content:"**"
+}
