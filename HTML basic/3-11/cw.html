@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+        <script>
+        var person={
+            Myname : "Juluri Yaswanth",
+            email : "juluriyaswanth009@gmail.com",
+            number:9381870293
+        };
+
+        person.city = "Hyderabad" ;
+        person.gender = "male" ;
+
+
+       // document.write("Myname :"+person.Myname + "<br> Email :"+person.email+"<br>")
+        //keys
+
+        //document.write(person.Myname+"<br>"+person.email)//values
+        
+       // console.log(person)
+
+        for(j in person){
+           // console.log(j)
+           document.write(j+" :"+person[j] +"<br>")
+
+        }
+
+    </script>
+
+
+</body>
+</html>
